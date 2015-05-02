@@ -1,0 +1,19 @@
+media-plugins/alsa-plugins ffmpeg pulseaudio speex -debug jack
+media-libs/libmikmod alsa openal pulseaudio threads coreaudio oss
+media-sound/ecasound alsa audiofile mikmod ncurses vorbis jack libsamplerate oss sndfile
+# required by dev-qt/designer-4.8.6-r1::gentoo[kde,phonon]
+# required by kde-misc/openofficeorg-thumbnail-1.0.0-r2::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/phonon-4.7.2 designer gstreamer
+>=net-nds/openldap-2.4.38-r1 cxx sasl
+# required by net-fs/cifs-utils-6.1-r1::gentoo[acl]
+>=net-fs/samba-3.6.25 winbind
+>=x11-drivers/nvidia-drivers-349.16 tools gtk2 gtk3
+www-client/chromium bindist tcmalloc cups custom-cflags hidpi kerberos pic proprietary-codecs pulseaudio selinux 
+test widevine aura
+sys-libs/zlib minizip
+media-video/nvidia-settings gtk
+media-plugins/alsa-plugins pulseaudio
+app-emulation/vmware-player vmware-tools
+app-emulation/virtualbox-bin additions

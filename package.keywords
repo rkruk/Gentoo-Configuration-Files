@@ -1,0 +1,31 @@
+# required by eselect-sublime (argument)
+app-admin/eselect-sublime ~amd64
+# required by sublime-text (argument)
+app-editors/sublime-text ~amd64
+# required by media-sound/apulse (argument)
+=media-sound/apulse-0.1.4 ~amd64
+# virtuoso driver
+media-sound/alsa-headers ** 
+media-sound/alsa-driver **
+dev-python/pyside ~amd64
+www-client/chromium ~amd64
+# required by www-client/chromium-43.0.2357.18::gentoo
+# required by @selected
+# required by @world (argument)
+=media-libs/libvpx-1.4.0 ~amd64
+# required by vivaldi (argument)
+=www-client/vivaldi-1.0.162.4_p1 ~amd64
+# required by www-client/firefox-developer-bin (argument)
+=www-client/firefox-developer-bin-39.0_alpha2 ~amd64
+# required by google-chrome (argument)
+=www-client/google-chrome-42.0.2311.135_p1 ~amd64
+# required by media-fonts/takao-fonts (argument)
+=media-fonts/takao-fonts-003.02.01 ~amd64
+media-sound/pulseaudio ~amd64
+dev-util/bdelta ~amd64
+app-emulation/vmware-modules ~amd64
+app-emulation/vmware-player ~amd64
+# required by app-emulation/vmware-player-6.0.3.1895310::gentoo[vmware-tools]
+# required by app-emulation/vmware-modules-279.3-r1::vmware
+# required by vmware-modules (argument)
+=app-emulation/vmware-tools-9.9.2.2496824 ~amd64
